@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 1px solid hotpink;
+  }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 50px;
+  color: hsl(243, 87%, 12%);
+
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: hsl(243, 87%, 12%);
+  font-size: 2rem;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.hNav {
+  text-decoration: none;
+  color: hsl(243, 87%, 12%);
+  padding-left: 35px;
+  padding-right: 35px;
+}
+#rNav{
+  margin-right: -35px;
+}
+.first-h1{
+  margin-right: 150px;
+}
+.first-P {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-right: 150px;
+}
+
+.signup1 {
+  border-radius: 5px;
+  color: hsl(0, 0%, 75%);
+  height: 38px;
+  width: 37%;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.signup2 {
+  border-radius: 5px;
+  background-color: hsl(224, 93%, 58%);
+  color: hsl(240, 75%, 98%);
+  height: 38px;
+  width: 23%;
+}
+.top-third {
+  width: 100%;
+}
+.content-justin {
+  display: flex;
+}
+
+.top-leftside{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top-rightside {
+  width: 50%;
+}
+#first-img {
+  width: 100%;
+}
