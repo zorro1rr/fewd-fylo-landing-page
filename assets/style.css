@@ -66,20 +66,20 @@ nav {
   height: 38px;
   width: 23%;
 }
-.top-third {
+#top-third {
   width: 100%;
 }
-.content-justin {
+#content-justin {
   display: flex;
 }
 
-.top-leftside{
+.left{
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.top-rightside {
+.right {
   width: 50%;
 }
 #first-img {
