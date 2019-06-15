@@ -85,3 +85,30 @@ nav {
 #first-img {
   width: 100%;
 }
+.get-started{
+  border: 0;
+   line-height: 2.5;
+   padding: 0 20px;
+   font-size: 1rem;
+   text-align: center;
+   display: flex;
+   flex-direction:row;
+   justify-content: flex-end;
+   color: #fff;
+   border-radius: 10px;
+   background-color: hsl(224, 93%, 58%);
+}
+.fyloLogo{
+  fill: white;
+}
+.footerTop {
+  background-color: hsl(238, 22%, 44%);
+  color:white;
+  padding: 50px;
+
+}
+.footerBottom {
+  background-color: hsl(243, 87%, 12%);
+  padding: 50px;
+
+}
