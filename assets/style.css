@@ -12,7 +12,8 @@ body {
   margin-right: 70px;
   margin-top: 50px;
   color: hsl(243, 87%, 12%);
-
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -98,17 +99,40 @@ nav {
    border-radius: 10px;
    background-color: hsl(224, 93%, 58%);
 }
-.fyloLogo{
-  fill: white;
+#wording-part{
+  display: inline-block;
+  width: 70%
 }
+
+#signUpbottom{
+  display: inline-block;
+  width: 26%;
+}
+
 .footerTop {
   background-color: hsl(238, 22%, 44%);
   color:white;
   padding: 50px;
-
+  display: inline-block;
 }
 .footerBottom {
   background-color: hsl(243, 87%, 12%);
-  padding: 50px;
+  padding: 70px;
+  display: flex;
+  justify-content: space-between;
 
+}
+.footerBottom a{
+  color:#fff;
+}
+.footerBottom a:hover{
+  fill:#000;
+  cursor: pointer;
+}
+.footerBottom svg {
+fill: #fff;
+}
+.footerBottom svg:hover{
+fill:#000;
+cursor: pointer;
 }
