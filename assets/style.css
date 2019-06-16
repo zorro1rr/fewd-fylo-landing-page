@@ -124,6 +124,7 @@ nav {
 }
 .footerBottom a{
   color:#fff;
+  text-decoration: none;
 }
 .footerBottom a:hover{
   fill:#000;
