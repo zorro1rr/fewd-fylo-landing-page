@@ -96,24 +96,56 @@ nav {
    flex-direction:row;
    justify-content: flex-end;
    color: #fff;
-   border-radius: 10px;
+   border-radius: 5px;
    background-color: hsl(224, 93%, 58%);
+   box-shadow: 2px 2px 2px black;
+}
+.enterEmail{
+  padding-right: 200px;
+  padding-bottom: 25px;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align:justify;
+  font-size: 1.5rem;
+
+
 }
 #wording-part{
   display: inline-block;
-  width: 70%
+  width: 50%;
+  margin:25px,50px;
+  padding: 20px;
 }
 
 #signUpbottom{
   display: inline-block;
-  width: 26%;
+  width: 50%;
+  margin: 25px,50px;
+  padding: 20px;
 }
 
+#fyloMainlogo {
+  fill:#fff;
+}
+
+.iconColumn{
+  display: flex;
+  padding: 20px;
+}
+
+.iconColumn svg {
+  margin-left: 10px;
+}
 .footerTop {
   background-color: hsl(238, 22%, 44%);
   color:white;
   padding: 50px;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+}
+.footerTop h2{
+  margin-bottom: 15px;
 }
 .footerBottom {
   background-color: hsl(243, 87%, 12%);
@@ -125,6 +157,7 @@ nav {
 .footerBottom a{
   color:#fff;
   text-decoration: none;
+  margin-bottom:20px;
 }
 .footerBottom a:hover{
   fill:#000;
@@ -132,6 +165,7 @@ nav {
 }
 .footerBottom svg {
 fill: #fff;
+flex-direction: column;
 }
 .footerBottom svg:hover{
 fill:#000;
