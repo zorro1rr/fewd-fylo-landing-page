@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 1px solid hotpink;
+ 
   }
 
 body {
@@ -69,7 +69,7 @@ nav {
 #top-third {
   width: 100%;
 }
-#content-justin {
+.section-container {
   display: flex;
 }
 
@@ -85,3 +85,36 @@ nav {
 #first-img {
   width: 100%;
 }
+
+.background-image{
+background-image: url("../images/bg-curve-desktop.svg");
+background-repeat: no-repeat;
+background-color: antiquewhite;
+}
+
+#how-fylo-works{
+  color: green;
+  text-decoration: underline;
+}
+#arrow-image {
+  height: 10%;
+  width: 15%;
+}
+#personal-quote-container{
+  height: 15%;
+  width:50%;
+  background: #e7e6e4;
+  border:1px solid #D3D3D3;
+  backdrop-filter: drop-shadow(4px 4px 10px blue);
+  
+}
+
+#quote-img{
+  height: 25px;
+  width: 20px;
+}
+
+#illustration-2{
+  width: 100%;
+}
+
