@@ -71,6 +71,8 @@ nav {
 }
 .section-container {
   display: flex;
+  margin: 10% 0;
+  justify-content: space-between;
 }
 
 .left{
@@ -89,7 +91,7 @@ nav {
 .background-image{
 background-image: url("../images/bg-curve-desktop.svg");
 background-repeat: no-repeat;
-background-color: antiquewhite;
+
 }
 
 #how-fylo-works{
@@ -108,7 +110,10 @@ background-color: antiquewhite;
   backdrop-filter: drop-shadow(4px 4px 10px blue);
   
 }
-
+#user-img{
+  border-radius: 50%;
+  width: 15%;
+}
 #quote-img{
   height: 25px;
   width: 20px;
@@ -116,5 +121,10 @@ background-color: antiquewhite;
 
 #illustration-2{
   width: 100%;
+  margin-top: 17%;
+  
 }
 
+.second-content{
+  margin-top: 7%;
+}
