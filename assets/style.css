@@ -195,6 +195,7 @@ background-repeat: no-repeat;
   padding: 50px;
   display: flex;
   justify-content: space-between;
+  width:100%;
 }
 
 .footerTop h2{
