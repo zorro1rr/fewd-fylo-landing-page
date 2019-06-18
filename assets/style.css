@@ -2,17 +2,18 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 1px solid hotpink;
+
   }
 
 body {
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
-  margin-left: 70px;
-  margin-right: 70px;
   margin-top: 50px;
   color: hsl(243, 87%, 12%);
-
+}
+#top-third {
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 h1 {
@@ -66,22 +67,167 @@ nav {
   height: 38px;
   width: 23%;
 }
-.top-third {
+#top-third {
   width: 100%;
 }
-.content-justin {
+.section-container {
   display: flex;
+  margin: 10% 0;
+  justify-content: space-between;
 }
 
-.top-leftside{
+.left{
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.top-rightside {
+.right {
   width: 50%;
 }
 #first-img {
   width: 100%;
+}
+
+.background-image{
+background-image: url("../images/bg-curve-desktop.svg");
+background-repeat: no-repeat;
+
+}
+
+#how-fylo-works{
+  color: green;
+  text-decoration: underline;
+}
+#arrow-image {
+  height: 10%;
+  width: 15%;
+}
+#personal-quote-container{
+  height: 15%;
+  width:50%;
+  background: #e7e6e4;
+  border:1px solid #D3D3D3;
+  backdrop-filter: drop-shadow(4px 4px 10px blue);
+
+}
+#user-img{
+  border-radius: 50%;
+  width: 15%;
+}
+#quote-img{
+  height: 25px;
+  width: 20px;
+}
+
+#illustration-2{
+  width: 100%;
+  margin-top: 17%;
+
+}
+
+.second-content{
+  margin-top: 7%;
+}
+
+.firstColumn{
+  padding: 10px;
+}
+.get-started{
+  border: 0;
+   line-height: 2.5;
+   padding: 0 10px;
+   font-size: 1rem;
+   text-align: center;
+   display: flex;
+   flex-direction:row;
+   justify-content: flex-end;
+   color: #fff;
+   border-radius: 5px;
+   background-color: hsl(224, 93%, 58%);
+   box-shadow: 2px 2px 2px black;
+   fill:#000;
+   cursor: pointer;
+}
+.enterEmail{
+  padding-right: 100px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align:justify;
+  font-size: 1.5rem;
+  text-align: inherit;
+  fill:#000;
+  cursor: pointer
+
+
+ }
+#wording-part{
+  display: inline-block;
+  width: 50%;
+  margin:25px,50px;
+  padding: 20px;
+}
+
+ #signUpbottom{
+  display: inline-block;
+  width: 50%;
+  margin: 25px,50px;
+  padding: 20px;
+}
+
+ #fyloMainlogo {
+  fill:#fff;
+  padding: 10px;
+}
+
+ .iconColumn{
+  display: flex;
+  padding: 20px;
+}
+
+ .iconColumn svg {
+  margin-left: 10px;
+}
+.footerTop {
+  background-color: hsl(238, 22%, 44%);
+  color:white;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+}
+
+.footerTop h2{
+  margin-bottom: 15px;
+}
+.footerBottom {
+  background-color: hsl(243, 87%, 12%);
+  padding: 70px;
+  display: flex;
+  justify-content: space-between;
+
+
+ }
+ .footerBottom .logo-footer {
+   fill: #fff;
+
+ }
+.footerBottom a{
+  color:#fff;
+  text-decoration: none;
+  margin-bottom:20px;
+}
+.footerBottom a:hover{
+  fill:#000;
+  cursor: pointer;
+}
+.footerBottom .iconColumn svg{
+fill: #fff;
+flex-direction: column;
+}
+.footerBottom .iconColumn svg:hover{
+fill:#000;
+cursor: pointer;
 }
