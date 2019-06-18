@@ -8,7 +8,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
+<<<<<<< HEAD
   padding:10px;
+=======
+  margin-top: 50px;
+>>>>>>> a60193ad197d18c8bb19ae18f3715b2d1e846072
   color: hsl(243, 87%, 12%);
 
 }
@@ -89,9 +93,21 @@ nav {
 .background-image{
 background-image: url("../images/bg-curve-desktop.svg");
 background-repeat: no-repeat;
-
+background-size: contain;
 }
+/*
+.background-color{
+  background-color: blue;
+  height:150px;
+  margin-top: 110px;
+}
+*/
 
+.second-content{
+  background-color: #f8f8fe;
+  height:590px;
+  margin-top: 120px;
+}
 #how-fylo-works{
   color: green;
   text-decoration: underline;
