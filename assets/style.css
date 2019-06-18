@@ -192,6 +192,7 @@ background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
 }
+
 .footerTop h2{
   margin-bottom: 15px;
 }
@@ -200,6 +201,11 @@ background-repeat: no-repeat;
   padding: 70px;
   display: flex;
   justify-content: space-between;
+
+
+ }
+ .footerBottom .logo-footer {
+   fill: #fff;
 
  }
 .footerBottom a{
@@ -211,11 +217,11 @@ background-repeat: no-repeat;
   fill:#000;
   cursor: pointer;
 }
-.footerBottom svg {
+.footerBottom .iconColumn svg{
 fill: #fff;
 flex-direction: column;
 }
-.footerBottom svg:hover{
+.footerBottom .iconColumn svg:hover{
 fill:#000;
 cursor: pointer;
 }
