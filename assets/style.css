@@ -129,6 +129,9 @@ background-repeat: no-repeat;
   margin-top: 7%;
 }
 
+.firstColumn{
+  padding: 10px;
+}
 .get-started{
   border: 0;
    line-height: 2.5;
@@ -145,12 +148,13 @@ background-repeat: no-repeat;
 }
 .enterEmail{
   padding-right: 100px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   box-shadow: 2px 2px 2px black;
   border-radius: 5px;
   margin-bottom: 15px;
   text-align:justify;
   font-size: 1.5rem;
+  text-align: inherit;
 
 
  }
@@ -170,6 +174,7 @@ background-repeat: no-repeat;
 
  #fyloMainlogo {
   fill:#fff;
+  padding: 10px;
 }
 
  .iconColumn{
