@@ -145,6 +145,8 @@ background-repeat: no-repeat;
    border-radius: 5px;
    background-color: hsl(224, 93%, 58%);
    box-shadow: 2px 2px 2px black;
+   fill:#000;
+   cursor: pointer;
 }
 .enterEmail{
   padding-right: 100px;
@@ -155,6 +157,8 @@ background-repeat: no-repeat;
   text-align:justify;
   font-size: 1.5rem;
   text-align: inherit;
+  fill:#000;
+  cursor: pointer
 
 
  }
