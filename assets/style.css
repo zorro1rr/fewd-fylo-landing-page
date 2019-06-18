@@ -9,6 +9,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
   margin-top: 50px;
+  width: 100%;
   color: hsl(243, 87%, 12%);
 
 }
@@ -109,16 +110,20 @@ background-size: contain;
   text-decoration: underline;
 }
 #arrow-image {
-  height: 10%;
+  height: 30%;
   width: 15%;
 }
 #personal-quote-container{
-  height: 15%;
+  
   width:50%;
-  background: #e7e6e4;
+  background: #fff;
   border:1px solid #D3D3D3;
+  padding: 10px;
   backdrop-filter: drop-shadow(4px 4px 10px blue);
+}
 
+#personal-quote{
+  padding: 10px;
 }
 #user-img{
   border-radius: 50%;
@@ -239,4 +244,8 @@ flex-direction: column;
 .footerBottom .iconColumn svg:hover{
 fill:#000;
 cursor: pointer;
+}
+
+.left, .right{
+  margin-left: 70px;
 }
