@@ -8,15 +8,16 @@
 body {
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
-<<<<<<< HEAD
-  padding:10px;
-=======
-  margin-top: 50px;
->>>>>>> a60193ad197d18c8bb19ae18f3715b2d1e846072
+  width: 100%;
   color: hsl(243, 87%, 12%);
-
 }
-
+#top-third {
+  margin-top: 4%;
+  padding-left: 4.6%;
+  padding-right: 4.6%;
+  width: 100%;
+}
+}
 h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -42,7 +43,7 @@ nav {
   padding-right: 35px;
 }
 #rNav{
-  margin-right: -35px;
+  padding: 0 0 0 35px;
 }
 .first-h1{
   margin-right: 150px;
@@ -68,12 +69,15 @@ nav {
   height: 38px;
   width: 23%;
 }
-#top-third {
-  width: 100%;
+.Lpadding-div {
+  padding-left: 9.1%;
 }
+.Rpadding-div{
+  padding-right: 9.1%;
+}
+
 .section-container {
   display: flex;
-  margin: 10% 0;
   justify-content: space-between;
 }
 
@@ -95,44 +99,53 @@ background-image: url("../images/bg-curve-desktop.svg");
 background-repeat: no-repeat;
 background-size: contain;
 }
-/*
-.background-color{
-  background-color: blue;
-  height:150px;
-  margin-top: 110px;
-}
-*/
+
 
 .second-content{
   background-color: #f8f8fe;
-  height:590px;
-  margin-top: 120px;
 }
 #how-fylo-works{
   color: green;
   text-decoration: underline;
 }
 #arrow-image {
-  height: 10%;
+  height: 30%;
   width: 15%;
 }
 #personal-quote-container{
-  height: 15%;
-  width:50%;
-  background: #e7e6e4;
-  border:1px solid #D3D3D3;
-  backdrop-filter: drop-shadow(4px 4px 10px blue);
+  margin-top: 15%;
+  width:70%;
+  background: #fff;
 
+  padding: 10px;
+  box-shadow: 2px 2px 2px  rgb(241, 239, 239);
+}
+
+#personal-quote{
+  padding: 10px;
+}
+#quote-image-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 #user-img{
   border-radius: 50%;
-  width: 15%;
+  width: 10%;
 }
 #quote-img{
   height: 25px;
   width: 20px;
 }
+#user-description-1, #user-description-2 {
+padding-left: 15px;
+list-style-type: none;
+font-size: 12px;
+}
 
+#user-description-2{
+  font-weight: bold;
+}
 #illustration-2{
   width: 100%;
   margin-top: 17%;
@@ -141,6 +154,7 @@ background-size: contain;
 
 .second-content{
   margin-top: 7%;
+  padding: 10% 0;
 }
 
 .firstColumn{
@@ -243,4 +257,7 @@ flex-direction: column;
 .footerBottom .iconColumn svg:hover{
 fill:#000;
 cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
 }
