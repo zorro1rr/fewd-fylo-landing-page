@@ -8,16 +8,16 @@
 body {
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
-  padding:10px;
-  margin-top: 50px;
   width: 100%;
   color: hsl(243, 87%, 12%);
 }
 #top-third {
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-top: 4%;
+  padding-left: 4.6%;
+  padding-right: 4.6%;
+  width: 100%;
 }
-
+}
 h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -43,7 +43,7 @@ nav {
   padding-right: 35px;
 }
 #rNav{
-  margin-right: -35px;
+  padding: 0 0 0 35px;
 }
 .first-h1{
   margin-right: 150px;
@@ -69,9 +69,13 @@ nav {
   height: 38px;
   width: 23%;
 }
-#top-third {
-  width: 100%;
+.Lpadding-div {
+  padding-left: 9.1%;
 }
+.Rpadding-div{
+  padding-right: 9.1%;
+}
+
 .section-container {
   display: flex;
   justify-content: space-between;
@@ -96,6 +100,7 @@ background-repeat: no-repeat;
 background-size: contain;
 }
 
+
 .second-content{
   background-color: #f8f8fe;
 }
@@ -111,7 +116,7 @@ background-size: contain;
   margin-top: 15%;
   width:70%;
   background: #fff;
-  
+
   padding: 10px;
   box-shadow: 2px 2px 2px  rgb(241, 239, 239);
 }
@@ -254,3 +259,5 @@ fill:#000;
 cursor: pointer;
 }
 
+@media only screen and (max-width: 700px) {
+}
