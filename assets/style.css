@@ -117,7 +117,7 @@ background-size: contain;
   width: 15%;
 }
 #personal-quote-container{
-  margin-top: 15%;
+  margin: auto;
   width:70%;
   background: #fff;
 
@@ -283,7 +283,14 @@ cursor: pointer;
       margin: 0 auto;
     }
 
+    .second-content{
+    padding: 10% 0;
+    margin: 0;
+}
 
+    div#image-quote {
+      display: flex;
+  }
     .padding-div{
       
     }
@@ -335,7 +342,7 @@ cursor: pointer;
 #sign2{
   width: 100%;
 }
-}
+
 header{
 width: 92%;
 }
