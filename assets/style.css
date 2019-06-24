@@ -148,8 +148,6 @@ font-size: 12px;
 }
 #illustration-2{
   width: 100%;
-  margin-top: 17%;
-
 }
 
 .second-content{
@@ -259,5 +257,33 @@ fill:#000;
 cursor: pointer;
 }
 
-@media only screen and (max-width: 700px) {
+/*media queries*/
+
+@media only screen and (max-width: 900px) {
+   
+    #arrow-image {
+      height: 30%;
+      width: 15%;
+    }
+
+    .section-container {
+      flex-direction: column-reverse;
+      align-items: center;
+      align-content: space-between;
+    }
+    
+    
+    .left h1, .left p {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+    }
+
+
+    .padding-div{
+      
+    }
+
+
+  
 }
