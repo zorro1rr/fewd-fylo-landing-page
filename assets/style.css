@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
+  outline: 1px solid hotpink;
   }
 
 body {
@@ -28,10 +28,13 @@ header{
   display: flex;
   justify-content: space-between;
 }
+.img1{
+  min-width:166px;
+}
 nav {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  width: 25%;
+  width: 320px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -39,19 +42,20 @@ nav {
 .hNav {
   text-decoration: none;
   color: hsl(243, 87%, 12%);
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
+
 #rNav{
-  padding: 0 0 0 35px;
+  padding: 0 0 0 10%;
 }
 .first-h1{
-  margin-right: 150px;
+  margin-right: 28%;
 }
 .first-P {
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-right: 150px;
+  margin-right: 28%;
 }
 
 .signup1 {
@@ -286,4 +290,56 @@ cursor: pointer;
 
 
   
+
+@media (max-width: 700px) {
+  #top-third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hNav {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+.section-container {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.right, .left {
+  width: 90%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+}
+.first-h1{
+  margin-right: 28%;
+  width: 65%;
+  margin-right: 0%;
+}
+
+.first-P{
+  width: 85%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-right: 0%;
+}
+#signups{
+  width:85%;
+}
+.signup1{
+  width: 100%;
+}
+#sign2{
+  width: 100%;
+}
+}
+header{
+width: 92%;
+}
+#first-img{
+  max-width: 600px;
+  width: 100%;
 }
