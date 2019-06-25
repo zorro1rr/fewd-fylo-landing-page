@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
+  outline: 1px solid hotpink;
   }
 
 body {
@@ -28,10 +28,13 @@ header{
   display: flex;
   justify-content: space-between;
 }
+.img1{
+  min-width:166px;
+}
 nav {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  width: 25%;
+  width: 320px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -39,19 +42,20 @@ nav {
 .hNav {
   text-decoration: none;
   color: hsl(243, 87%, 12%);
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
+
 #rNav{
-  padding: 0 0 0 35px;
+  padding: 0 0 0 10%;
 }
 .first-h1{
-  margin-right: 150px;
+  margin-right: 28%;
 }
 .first-P {
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-right: 150px;
+  margin-right: 28%;
 }
 
 .signup1 {
@@ -94,6 +98,10 @@ nav {
   width: 100%;
 }
 
+.section-container.background-image{
+  margin-top: 12%
+}
+
 .background-image{
 background-image: url("../images/bg-curve-desktop.svg");
 background-repeat: no-repeat;
@@ -113,7 +121,7 @@ background-size: contain;
   width: 15%;
 }
 #personal-quote-container{
-  margin-top: 15%;
+  margin: auto;
   width:70%;
   background: #fff;
 
@@ -148,8 +156,6 @@ font-size: 12px;
 }
 #illustration-2{
   width: 100%;
-  margin-top: 17%;
-
 }
 
 .second-content{
@@ -259,6 +265,7 @@ fill:#000;
 cursor: pointer;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 900px) {
 
 .section-container {
@@ -270,4 +277,101 @@ cursor: pointer;
   align-items: center;
 
 }
+=======
+/*media queries*/
+
+@media only screen and (max-width: 700px) {
+   
+    #arrow-image {
+      height: 30%;
+      width: 15%;
+    }
+
+    .section-container {
+      flex-direction: column-reverse;
+      align-items: center;
+      align-content: space-between;
+    }
+    
+    
+    .left h1, .left p {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+    }
+
+    .second-content{
+    padding: 10% 0;
+    margin: 0;
+}
+
+    div#image-quote {
+      display: flex;
+  }
+
+  .Rpadding-div{
+    padding: 0;
+
+  }
+
+  .right.second-content{
+    margin-top: 8%;
+  }
+  
+
+
+  
+
+@media (max-width: 700px) {
+  #top-third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hNav {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+.section-container {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.right, .left {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+
+.first-h1{
+  margin-right: 28%;
+  width: 65%;
+  margin-right: 0%;
+}
+
+.first-P{
+  width: 85%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-right: 0%;
+}
+#signups{
+  width:85%;
+}
+.signup1{
+  width: 100%;
+}
+#sign2{
+  width: 100%;
+}
+
+header{
+width: 92%;
+}
+#first-img{
+  max-width: 600px;
+  width: 100%;
+>>>>>>> master
 }
