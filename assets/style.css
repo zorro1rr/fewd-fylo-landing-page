@@ -98,6 +98,10 @@ nav {
   width: 100%;
 }
 
+.section-container.background-image{
+  margin-top: 12%
+}
+
 .background-image{
 background-image: url("../images/bg-curve-desktop.svg");
 background-repeat: no-repeat;
@@ -263,7 +267,7 @@ cursor: pointer;
 
 /*media queries*/
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
    
     #arrow-image {
       height: 30%;
@@ -291,9 +295,16 @@ cursor: pointer;
     div#image-quote {
       display: flex;
   }
-    .padding-div{
-      
-    }
+
+  .Rpadding-div{
+    padding: 0;
+
+  }
+
+  .right.second-content{
+    margin-top: 8%;
+  }
+  
 
 
   
@@ -314,13 +325,13 @@ cursor: pointer;
   justify-content: center;
 }
 .right, .left {
-  width: 90%;
+  width: 100%;
   text-align: center;
   display: flex;
   align-items: center;
 }
 
-}
+
 .first-h1{
   margin-right: 28%;
   width: 65%;
