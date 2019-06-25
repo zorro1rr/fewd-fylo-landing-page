@@ -246,7 +246,7 @@ font-size: 12px;
   text-decoration: none;
   margin-bottom:20px;
 }
-.footerBottom a:hover{
+.footerBottom a::hover{
   fill:#000;
   cursor: pointer;
 }
@@ -259,5 +259,15 @@ fill:#000;
 cursor: pointer;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
+
+.section-container {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.left-second-content{
+  flex-direction: column-reverse;
+  align-items: center;
+
+}
 }
