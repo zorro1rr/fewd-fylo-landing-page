@@ -307,7 +307,10 @@ cursor: pointer;
   .right.second-content{
     margin-top: 7%;
   }
-   
+  
+
+
+  
 
 @media (max-width: 700px) {
   #top-third {
@@ -370,6 +373,11 @@ width: 92%;
   margin-top: 10%;
 }
 
+
+.enterEmail {
+  padding: 0;
+}
+}
 
 @media only screen and (max-width: 415px) {
   #sign2{
