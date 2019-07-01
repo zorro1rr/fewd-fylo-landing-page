@@ -284,7 +284,7 @@ cursor: pointer;
 /*media queries*/
 
 @media only screen and (max-width: 700px) {
-   
+
     #arrow-image {
       height: 30%;
       width: 15%;
@@ -295,8 +295,8 @@ cursor: pointer;
       align-items: center;
       align-content: space-between;
     }
-    
-    
+
+
     .left h1, .left p {
       display: flex;
       justify-content: center;
@@ -320,7 +320,7 @@ cursor: pointer;
   .right.second-content{
     margin-top: 7%;
   }
-   
+
 
 @media (max-width: 700px) {
   #top-third {
@@ -390,5 +390,52 @@ width: 92%;
     height: 2.5rem;
     color: red;
   }
+}
 
+
+  @media screen and (max-width: 700px) {
+    .footerTop{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: space-around;
+    }
+    .get-started{
+      width: 100%;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+      text-align:justify;
+    }
+  }
+@media screen and (max-width: 700px) {
+  .footerBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .iconColumn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 235px;
+    align-content: space-around;
+
+}
+  .logo-footer{
+
+    margin-bottom: 30px;
+
+  }
+    .footerBottom svg {
+      padding: 5px
+    }
+    .footerBottom .firstColumn {
+      align-content: space-between;
+      margin-bottom: 30px;
+    }
+    .footerBottom .secondColumn {
+      align-content: space-between;
+      margin-bottom: 30px;
+}
 }
