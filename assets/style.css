@@ -406,6 +406,18 @@ width: 92%;
       margin-bottom: 15px;
       text-align:justify;
     }
+    .footerTop h2,p {
+      text-align: center;
+    }
+    .enterEmail{
+      text-align:left;
+      font-size: 20px;
+  }
+    .signUpbottom .get-started {
+      justify-content: center;
+
+
+
   }
 @media screen and (max-width: 700px) {
   .footerBottom{
@@ -426,8 +438,9 @@ width: 92%;
 }
 
   .iconColumn svg {
-    margin-left:10px;
-    padding-left: 5px;
+    width: 50%;
+    justify-content: center;
+    
 
 
   }
