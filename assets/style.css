@@ -369,7 +369,7 @@ margin-top: 10%;
 /*media queries*/
 
 @media only screen and (max-width: 700px) {
-   
+
     #arrow-image {
       height: 30%;
       width: 15%;
@@ -380,8 +380,8 @@ margin-top: 10%;
       align-items: center;
       align-content: space-between;
     }
-    
-    
+
+
     .left h1, .left p {
       display: flex;
       justify-content: center;
@@ -405,7 +405,10 @@ margin-top: 10%;
   .right.second-content{
     margin-top: 7%;
   }
-   
+
+
+@media (max-width: 700px) {
+
   #top-third {
     display: flex;
     flex-direction: column;
@@ -474,5 +477,105 @@ width: 92%;
     height: 2.5rem;
     color: red;
   }
+}
 
 
+  @media screen and (max-width: 700px) {
+    .footerTop{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: space-around;
+    }
+    .get-started{
+      width: 100%;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+      text-align:justify;
+    }
+    .footerTop h2,p {
+      text-align: center;
+    }
+    .enterEmail{
+      text-align:left;
+      font-size: 20px;
+  }
+    .signUpbottom .get-started {
+      justify-content: center;
+
+
+
+  }
+@media screen and (max-width: 700px) {
+  .footerBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content:flex-start;
+    padding-left: 10px;
+
+  }
+  .iconColumn {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    align-content: center;
+    margin-left: 90px;
+
+
+}
+
+  .iconColumn svg {
+    width: 50%;
+    justify-content: center;
+    
+
+
+  }
+  .logo-footer{
+
+    margin-bottom: 30px;
+
+  }
+    .footerBottom svg {
+      padding: 5px
+    }
+    .footerBottom .firstColumn {
+      align-content: space-between;
+      margin-bottom: 30px;
+      align-items: flex-start;
+      padding-left: 10px;
+    }
+
+    .firstColumn ul li {
+      align-content: space-between;
+      margin-bottom: 20px;
+      align-items: flex-start;
+      padding-left: 10px;
+
+
+    }
+    .footerBottom .secondColumn {
+      align-content: space-between;
+      margin-bottom: 30px;
+      align-items: flex-start;
+      padding-left: 10px;
+      padding-top: 10px
+    }
+
+    .footerBottom .thirdColumn {
+      align-content: space-between;
+      margin-bottom: 30px;
+      align-items: flex-start;
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+    .thirdColumn ul li{
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+    .secondColumn ul li{
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+  
