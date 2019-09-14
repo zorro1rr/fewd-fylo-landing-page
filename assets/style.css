@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 1px solid hotpink;
+  /* outline: 1px solid hotpink; */
   }
 
 body {
@@ -12,7 +12,7 @@ body {
   color: hsl(243, 87%, 12%);
 }
 #top-third {
-  margin-top: 4%;
+
   padding-left: 4.6%;
   padding-right: 4.6%;
   width: 100%;
@@ -25,6 +25,7 @@ h1 {
   font-size: 2rem;
 }
 header{
+  margin-top: 4%;
   display: flex;
   justify-content: space-between;
 }
@@ -304,7 +305,7 @@ cursor: pointer;
 .signup1{
   width: 100%;
 }
-#sign2{
+.signup2{
   width: 100%;
 }
 }
