@@ -27,6 +27,8 @@ header{
   margin-top: 4%;
   display: flex;
   justify-content: space-between;
+  padding-left: 4.6%;
+  padding-right: 4.6%;
 }
 .img1{
   min-width:166px;
@@ -52,6 +54,9 @@ nav ul {
   color: hsl(243, 87%, 12%);
   padding-left: 10%;
   padding-right: 10%;
+}
+#lastNav {
+  padding: 0%;
 }
 
 h1,.first-P, #how-fylo-works, .signup1{
